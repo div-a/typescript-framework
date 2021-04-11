@@ -22,5 +22,7 @@ module.exports = {
     'no-useless-constructor': 0,
     'import/no-unresolved': 0,
     'import/extensions': 0,
+    'no-unused-vars': 0,
+    'no-empty-function': [ 'error', { allow: [ 'constructors' ] } ],
   },
 };

@@ -15,8 +15,9 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
-    'linebreak-style': 0,
+    'linebreak-style': false,
     'object-curly-spacing': [ 'error', 'always' ],
     'array-bracket-spacing': [ 'error', 'always' ],
+    'lines-between-class-members': false,
   },
 };

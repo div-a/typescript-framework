@@ -3,8 +3,8 @@ import Attributes from './Attributes';
 import Eventing from './Eventing';
 import Model from './Model';
 
-interface UserProps {
-  id?: string;
+export interface UserProps {
+  id?: number;
   name?: string;
   age?: number;
 }

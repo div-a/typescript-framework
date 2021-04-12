@@ -1,7 +1,7 @@
 import axios, { AxiosPromise } from 'axios';
 
 interface HasId {
-    id?: string;
+    id?: number;
 }
 
 export default class ApiSync<T extends HasId> {
